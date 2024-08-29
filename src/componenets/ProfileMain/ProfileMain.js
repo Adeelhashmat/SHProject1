@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "./ProfileMain.css";
 import SettingsIcon from "@mui/icons-material/Settings";
 import EditTwoToneIcon from "@mui/icons-material/EditTwoTone";
-import CloseIcon from "@mui/icons-material/Close"; // Import CloseIcon
+import CloseIcon from "@mui/icons-material/Close"; 
 import SettingDrawer from "../SettingDrawer/SettingDrawer";
 import RollingDrawer from "../RollingDrawer/RollingDrawer"; 
 
@@ -12,11 +12,11 @@ const ProfileMain = () => {
   const [isSettingDrawerOpen, setIsSettingDrawerOpen] = useState(false);
   const [isRollingDrawerOpen, setIsRollingDrawerOpen] = useState(false);
   const [isEditSectionOpen, setIsEditSectionOpen] = useState(false);
-  const [isEditing, setIsEditing] = useState(false); // State to toggle icon
-
+  const [isEditing, setIsEditing] = useState(false); 
+//uyfyfjhgjhggit
   const handleEditClick = () => {
     setIsEditSectionOpen(!isEditSectionOpen);
-    setIsEditing(!isEditing); // Toggle icon state
+    setIsEditing(!isEditing); 
   };
 
   return (
@@ -85,7 +85,7 @@ const ProfileMain = () => {
           )}
         </div>
       </div>
-
+        
       <div className="bottom-nav">
         <div className="open-rolling-drawer-btn">
           <img src="./profile.jpeg" onClick={() => setIsSettingDrawerOpen(true)} />
