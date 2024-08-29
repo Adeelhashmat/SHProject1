@@ -64,7 +64,7 @@ const ProfileMain = () => {
             <div className="button"></div>
             <div className="button"></div>
           </div>
-
+                <div className="empty-div"></div>
           {isEditSectionOpen && (
             <div className="edit-section">
               <div className="edit-field">

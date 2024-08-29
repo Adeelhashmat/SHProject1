@@ -252,5 +252,8 @@
 .color-6{
   background-image: linear-gradient(90deg, #f0e6e6, #050505);
 }
-
+.empty-div{
+  width: 390px;
+  height: 30px;
+}
 
